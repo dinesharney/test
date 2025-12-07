@@ -1,0 +1,128 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.4" pages="2">
+  <diagram id="HLD" name="GraphSense HLD">
+    <mxGraphModel dx="2696" dy="1731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SrYibgVK94Qu7rCQVk0q-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Browser UI&#xa;GraphSense Frontend" vertex="1">
+          <mxGeometry height="80" width="200" x="140" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="SrYibgVK94Qu7rCQVk0q-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="API Gateway&#xa;Routing, Auth, Throttling" vertex="1">
+          <mxGeometry height="90" width="210" x="370" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="SrYibgVK94Qu7rCQVk0q-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="UI Backend Service&#xa;Intent, Workflow, Orchestration" vertex="1">
+          <mxGeometry height="110" width="220" x="620" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="SrYibgVK94Qu7rCQVk0q-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="Auth Service&#xa;Identity and Roles" vertex="1">
+          <mxGeometry height="80" width="200" x="620" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="SrYibgVK94Qu7rCQVk0q-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Graph Gateway Service&#xa;Quantexa API Client&#xa;Entitlement Checks" vertex="1">
+          <mxGeometry height="110" width="230" x="620" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="SrYibgVK94Qu7rCQVk0q-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#e07a1f;" value="Context Builder Service&#xa;Summaries, Events, Ranking" vertex="1">
+          <mxGeometry height="110" width="230" x="620" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="SrYibgVK94Qu7rCQVk0q-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Prompt Orchestrator Service&#xa;Templates and Guardrails" vertex="1">
+          <mxGeometry height="110" width="230" x="620" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="SrYibgVK94Qu7rCQVk0q-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="LLM Gateway Service&#xa;Model Routing and Safety" vertex="1">
+          <mxGeometry height="110" width="230" x="900" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="SrYibgVK94Qu7rCQVk0q-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Quantexa Graph Platform&#xa;Client and Transaction Data&#xa;Networks and Risk" vertex="1">
+          <mxGeometry height="140" width="260" x="900" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="SrYibgVK94Qu7rCQVk0q-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="LLM Providers&#xa;OpenAI, Claude, Gemini&#xa;On Prem Models" vertex="1">
+          <mxGeometry height="140" width="260" x="900" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="SrYibgVK94Qu7rCQVk0q-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="Audit Service&#xa;Logs, Evidence, Traceability" vertex="1">
+          <mxGeometry height="100" width="210" x="370" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="SrYibgVK94Qu7rCQVk0q-12" edge="1" parent="1" source="SrYibgVK94Qu7rCQVk0q-1" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" target="SrYibgVK94Qu7rCQVk0q-2" />
+        <mxCell id="SrYibgVK94Qu7rCQVk0q-13" edge="1" parent="1" source="SrYibgVK94Qu7rCQVk0q-2" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" target="SrYibgVK94Qu7rCQVk0q-3" />
+        <mxCell id="SrYibgVK94Qu7rCQVk0q-14" edge="1" parent="1" source="SrYibgVK94Qu7rCQVk0q-3" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" target="SrYibgVK94Qu7rCQVk0q-4" />
+        <mxCell id="SrYibgVK94Qu7rCQVk0q-15" edge="1" parent="1" source="SrYibgVK94Qu7rCQVk0q-3" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" target="SrYibgVK94Qu7rCQVk0q-5" />
+        <mxCell id="SrYibgVK94Qu7rCQVk0q-16" edge="1" parent="1" source="SrYibgVK94Qu7rCQVk0q-5" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" target="SrYibgVK94Qu7rCQVk0q-9" />
+        <mxCell id="SrYibgVK94Qu7rCQVk0q-17" edge="1" parent="1" source="SrYibgVK94Qu7rCQVk0q-5" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" target="SrYibgVK94Qu7rCQVk0q-6" />
+        <mxCell id="SrYibgVK94Qu7rCQVk0q-18" edge="1" parent="1" source="SrYibgVK94Qu7rCQVk0q-6" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" target="SrYibgVK94Qu7rCQVk0q-7" />
+        <mxCell id="SrYibgVK94Qu7rCQVk0q-19" edge="1" parent="1" source="SrYibgVK94Qu7rCQVk0q-7" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" target="SrYibgVK94Qu7rCQVk0q-8" />
+        <mxCell id="SrYibgVK94Qu7rCQVk0q-20" edge="1" parent="1" source="SrYibgVK94Qu7rCQVk0q-8" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" target="SrYibgVK94Qu7rCQVk0q-10" />
+        <mxCell id="SrYibgVK94Qu7rCQVk0q-21" edge="1" parent="1" source="SrYibgVK94Qu7rCQVk0q-3" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" target="SrYibgVK94Qu7rCQVk0q-11" />
+        <mxCell id="SrYibgVK94Qu7rCQVk0q-22" edge="1" parent="1" source="SrYibgVK94Qu7rCQVk0q-5" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" target="SrYibgVK94Qu7rCQVk0q-11" />
+        <mxCell id="SrYibgVK94Qu7rCQVk0q-23" edge="1" parent="1" source="SrYibgVK94Qu7rCQVk0q-7" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" target="SrYibgVK94Qu7rCQVk0q-11" />
+        <mxCell id="SrYibgVK94Qu7rCQVk0q-24" edge="1" parent="1" source="SrYibgVK94Qu7rCQVk0q-8" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" target="SrYibgVK94Qu7rCQVk0q-11" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LLD" name="GraphSense LLD">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- Client -->
+        <mxCell id="client" value="Browser Client&#xa;- GraphSense Web UI" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="220" height="90" as="geometry" />
+        </mxCell>
+        <!-- API Gateway -->
+        <mxCell id="apiGateway" value="API Gateway&#xa;- Routing&#xa;- Auth&#xa;- Rate Limits" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="360" y="80" width="220" height="90" as="geometry" />
+        </mxCell>
+        <!-- UI Service -->
+        <mxCell id="uiService" value="ui service&#xa;- Session Handling&#xa;- Chat State&#xa;- Formatting" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="360" y="200" width="220" height="100" as="geometry" />
+        </mxCell>
+        <!-- Graph Gateway Service -->
+        <mxCell id="graphService" value="graph gateway service&#xa;- Graph API Client&#xa;- Entitlement Adapter&#xa;- Response Normaliser" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="360" y="330" width="260" height="110" as="geometry" />
+        </mxCell>
+        <!-- Context Builder Service -->
+        <mxCell id="contextService" value="context builder service&#xa;- Graph Summaries&#xa;- Event Selection&#xa;- Ranking and Scoring" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#e07a1f;" vertex="1" parent="1">
+          <mxGeometry x="360" y="470" width="260" height="110" as="geometry" />
+        </mxCell>
+        <!-- Prompt Orchestrator Service -->
+        <mxCell id="promptService" value="prompt orchestrator service&#xa;- Template Store&#xa;- Guardrail Rules&#xa;- Prompt Assembly" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="360" y="610" width="260" height="110" as="geometry" />
+        </mxCell>
+        <!-- LLM Gateway Service -->
+        <mxCell id="llmService" value="llm gateway service&#xa;- Provider Clients&#xa;- Routing Policy&#xa;- Safety Filters" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="720" y="610" width="260" height="110" as="geometry" />
+        </mxCell>
+        <!-- Audit Service -->
+        <mxCell id="auditService" value="audit service&#xa;- Query Logs&#xa;- Context Logs&#xa;- LLM Output Logs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="720" y="330" width="260" height="110" as="geometry" />
+        </mxCell>
+        <!-- Auth Service -->
+        <mxCell id="authService" value="auth service&#xa;- User Identity&#xa;- Role Mapping&#xa;- Token Validation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="720" y="200" width="260" height="100" as="geometry" />
+        </mxCell>
+        <!-- Graph Platform -->
+        <mxCell id="graphPlatform" value="Enterprise Graph Platform" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="330" width="260" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="graphInner" value="Data Fabric&#xa;Entity Resolution&#xa;Graph and Events" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;dashed=1;" vertex="1" parent="graphPlatform">
+          <mxGeometry x="20" y="40" width="220" height="130" as="geometry" />
+        </mxCell>
+        <!-- LLM Providers -->
+        <mxCell id="llmBox" value="LLM Providers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="610" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="llmInner" value="OpenAI&#xa;Claude&#xa;Gemini&#xa;On Prem Models" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#82b366;dashed=1;" vertex="1" parent="llmBox">
+          <mxGeometry x="20" y="40" width="220" height="100" as="geometry" />
+        </mxCell>
+        <!-- LLD Edges -->
+        <mxCell id="l1" edge="1" parent="1" source="client" target="apiGateway" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" />
+        <mxCell id="l2" edge="1" parent="1" source="apiGateway" target="uiService" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" />
+        <mxCell id="l3" edge="1" parent="1" source="uiService" target="graphService" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" />
+        <mxCell id="l4" edge="1" parent="1" source="graphService" target="contextService" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" />
+        <mxCell id="l5" edge="1" parent="1" source="contextService" target="promptService" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" />
+        <mxCell id="l6" edge="1" parent="1" source="promptService" target="llmService" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" />
+        <mxCell id="l7" edge="1" parent="1" source="llmService" target="llmBox" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" />
+        <mxCell id="l8" edge="1" parent="1" source="graphService" target="graphPlatform" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" />
+        <mxCell id="l9" edge="1" parent="1" source="uiService" target="authService" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" />
+        <mxCell id="l10" edge="1" parent="1" source="uiService" target="auditService" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" />
+        <mxCell id="l11" edge="1" parent="1" source="graphService" target="auditService" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" />
+        <mxCell id="l12" edge="1" parent="1" source="promptService" target="auditService" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" />
+        <mxCell id="l13" edge="1" parent="1" source="llmService" target="auditService" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
